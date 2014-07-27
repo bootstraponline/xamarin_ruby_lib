@@ -9,15 +9,15 @@ namespace ruby_lib
         public TableViewMenuDemoPage ()
         {
             Label header = new Label {
-                Text = "TableView for a menu",
-                Font = Font.SystemFontOfSize (30, FontAttributes.Bold),
+                Text = "Test Launcher",
+                Font = Font.SystemFontOfSize(40, FontAttributes.Bold),
                 HorizontalOptions = LayoutOptions.Center
             };
 
             TableView tableView = new TableView {
                 Intent = TableIntent.Menu,
                 Root = new TableRoot {
-                    new TableSection ("Views for Presentation") {
+                    new TableSection ("Table Section") {
                         new TextCell {
                             Text = "Label",
                             Command = new Command (async () => 
