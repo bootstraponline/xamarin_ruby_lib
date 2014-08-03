@@ -15,9 +15,10 @@ namespace ruby_lib
             };
 
             TableView tableView = new TableView {
+                BackgroundColor = Color.White,
                 Intent = TableIntent.Menu,
                 Root = new TableRoot {
-                    new TableSection ("Table Section") {
+                    new TableSection () {
                         new TextCell {
                             Text = "Label",
                             Command = new Command (async () => 

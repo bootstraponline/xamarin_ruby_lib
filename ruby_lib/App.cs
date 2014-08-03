@@ -7,7 +7,8 @@ namespace ruby_lib
     {
         public static Page GetMainPage ()
         {	
-            return new TableViewMenuDemoPage ();
+            // need navigation page to use Navigation.PushAsync
+            return new NavigationPage(new TableViewMenuDemoPage ());
         }
     }
 }

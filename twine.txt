@@ -1,0 +1,7 @@
+[[ruby_lib]]
+    [hello]
+        en = Hello World, Click Me!
+        comment = This is the hello world button
+    [app_name]
+        en = ruby_lib.Android.Android
+        comment = The app name is the same on both platforms (iOS/Android)
