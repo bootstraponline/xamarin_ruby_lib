@@ -14,11 +14,13 @@ namespace ruby_lib
                 HorizontalOptions = LayoutOptions.Center
             };
 
+            String sectionName = Catalog.GetString("app_name");
+
             TableView tableView = new TableView {
                 BackgroundColor = Color.White,
                 Intent = TableIntent.Menu,
                 Root = new TableRoot {
-                    new TableSection () {
+                    new TableSection (sectionName) {
                         new TextCell {
                             Text = "Label",
                             Command = new Command (async () => 
