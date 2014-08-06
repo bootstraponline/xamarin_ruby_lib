@@ -13,6 +13,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)TableViewMenuDemoPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LabelDemoPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ImageDemoPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Catalog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Twine.cs" />
   </ItemGroup>
 </Project>
